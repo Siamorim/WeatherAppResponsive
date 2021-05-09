@@ -12,7 +12,7 @@ export default function weatherApp() {
       <footer className="code">
         <span> Open-source code by Sílvia Amorim, on </span>
         <a
-          href="https://github.com/Siamorim/reactshecodesproject"
+          href="https://github.com/Siamorim/WeatherAppResponsive"
           target="_blank"
           rel="noreferrer"
         >
@@ -20,7 +20,7 @@ export default function weatherApp() {
         </a>
         <span> and hosted on </span>
         <a
-          href="https://angry-poincare-168aad.netlify.app"
+          href="https://nifty-goldwasser-ef5d93.netlify.app"
           target="_blank"
           rel="noreferrer"
         >
