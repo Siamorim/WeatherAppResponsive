@@ -1,0 +1,107 @@
+.container-fluid {
+  font-family: "Texturina", serif;
+  max-width: 750px;
+  margin-top: 10px;
+}
+
+.card {
+  background-image: url("./images/nbc.jpg");
+  background-position: 55% 15%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-image: linear-gradient(to bottom right, cornflowerblue, white);*/
+  height: 100%;
+  border: 0.2rem solid #fac168;
+  border-radius: 40px;
+}
+
+h2,
+.temp,
+.units,
+.todayTempMinMax,
+.Today,
+.NextDays {
+  color: white;
+}
+
+.forHour {
+  font-weight: bold;
+}
+
+.title {
+  position: relative;
+  left: -90px;
+  color: black;
+  font-weight: bold;
+  display: block;
+  font-size: 30px;
+  top: -210px;
+  text-align: center;
+}
+
+.titleSpace {
+  line-height: 0.4cm;
+  text-indent: -0.3cm;
+}
+
+.code {
+  margin: 0px;
+  padding: 0;
+  font-size: 12px;
+  font-family: "Texturina", serif;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    position: relative;
+    left: -90px;
+    display: block;
+    font-size: 25px;
+    top: -310px;
+  }
+
+  .card {
+    background-position: 50% 50%;
+  }
+}
+
+@media (max-width: 568px) {
+  .title {
+    position: relative;
+    left: -90px;
+    display: block;
+    font-size: 25px;
+    top: -400px;
+  }
+}
+
+@media (max-width: 530px) {
+  .title {
+    position: relative;
+    left: -90px;
+    display: block;
+    font-size: 25px;
+    top: -400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .code {
+    font-size: 10px;
+  }
+  .title {
+    position: relative;
+    left: -80px;
+    display: block;
+    font-size: 25px;
+    top: -380px;
+  }
+}
+
+@media (max-width: 400px) {
+  .code {
+    font-size: 8px;
+  }
+}

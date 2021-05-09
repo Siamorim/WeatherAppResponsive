@@ -1,0 +1,200 @@
+.TempToday .temp {
+  font-size: 46px;
+  line-height: 42px;
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.TempToday .units {
+  font-size: 14px;
+  line-height: 1px;
+  font-weight: 400;
+  position: relative;
+  top: -20px;
+}
+
+.TempToday canvas {
+  position: relative;
+  left: 10px;
+  top: 22px;
+  margin: 10px auto;
+}
+
+li .text-capitalize {
+  position: relative;
+  top: -12px;
+  font-size: 24px;
+  left: -48px;
+  margin-left: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.WeatherConditions {
+  position: relative;
+  left: 135px;
+  font-size: 18px;
+}
+
+.TempToday .temp {
+  font-size: 35px;
+}
+
+@media (max-width: 768px) {
+  .WeatherConditions {
+    font-size: 18px;
+    position: relative;
+    left: 80px;
+  }
+}
+
+@media (max-width: 590px) {
+  .WeatherConditions {
+    font-size: 16px;
+    position: relative;
+    left: 60px;
+  }
+}
+
+@media (max-width: 540px) {
+  .WeatherConditions {
+    font-size: 16px;
+    position: relative;
+    left: 28px;
+  }
+}
+
+@media (max-width: 513px) {
+  .TempToday .temp {
+    font-size: 30px;
+  }
+
+  li .text-capitalize {
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+  }
+
+  .TempToday .units {
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+  }
+
+  .TempToday canvas {
+    font-size: 6px;
+  }
+
+  .WeatherConditions {
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    top: 7px;
+  }
+}
+
+@media (max-width: 431px) {
+  .WeatherConditions {
+    font-size: 14px;
+    position: relative;
+    left: 4px;
+    top: 6px;
+  }
+
+  .TempToday .temp {
+    font-size: 30px;
+  }
+
+  li .text-capitalize {
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    margin-left: 0px;
+  }
+
+  .TempToday .units {
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+  }
+
+  .TempToday canvas {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 400px) {
+  li .text-capitalize {
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+  }
+}
+
+@media (max-width: 385px) {
+  li .text-capitalize {
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+  }
+  .TempToday canvas {
+    font-size: 4px;
+  }
+
+  .WeatherConditions {
+    font-size: 13px;
+    position: relative;
+    left: 8px;
+  }
+}
+
+@media (max-width: 368px) {
+  li .text-capitalize {
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    left: -30px;
+  }
+  .WeatherConditions {
+    font-size: 12px;
+    position: relative;
+    left: 2px;
+  }
+  .TempToday canvas {
+    width: 40px;
+    position: relative;
+    top: 12px;
+  }
+}
+
+@media (max-width: 340px) {
+  .WeatherConditions {
+    font-size: 12px;
+    position: relative;
+    left: -4px;
+  }
+  .TempToday canvas {
+    width: 40px;
+    position: relative;
+    top: 12px;
+  }
+  .TempToday .temp {
+    font-size: 26px;
+  }
+
+  .TempToday .units {
+    font-size: 11px;
+    position: relative;
+    top: -10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .WeatherConditions {
+    font-size: 11px;
+    position: relative;
+    left: -14px;
+  }
+}

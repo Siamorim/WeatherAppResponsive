@@ -1,0 +1,22 @@
+.minTemp,
+.maxTemp,
+.dayForecast {
+  font-size: 18px;
+}
+
+.minTemp,
+.maxTemp {
+  font-weight: bold;
+}
+
+.dayForecast {
+  font-weight: bold;
+}
+
+@media (max-width: 420px) {
+  .minTemp,
+  .maxTemp,
+  .dayForecast {
+    font-size: 16px;
+  }
+}

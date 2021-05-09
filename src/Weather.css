@@ -1,0 +1,206 @@
+input[type="text"] {
+  border-radius: 40px;
+  border: 1px solid black;
+  padding: 0px 0.5px 0.5px 10px;
+  font-size: 22px;
+  background-color: white;
+  color: #000000;
+  transition: all 200ms ease;
+  cursor: url("./images/zeroresized2.png"), auto;
+  margin-top: 5px;
+}
+
+.magn {
+  width: 42px;
+  color: white;
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.magn img {
+  width: 100%;
+}
+
+.magn:hover {
+  cursor: pointer;
+  color: #fac168;
+  transition: all 200ms ease;
+}
+
+.TempToday {
+  color: white;
+}
+
+h1 {
+  display: inline;
+  position: relative;
+  left: 0px;
+  font-size: 1px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  top: 0px;
+}
+
+.lineHeader {
+  background-color: #fac168;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid #fac168;
+  padding: 1px 0px 1px 15px;
+  margin: 5px 4px auto 4px;
+  font-weight: 900;
+}
+
+.cityNow {
+  margin: 0px;
+}
+
+.todayDay {
+  position: relative;
+  right: -140px;
+}
+
+.country {
+  font-weight: 1px;
+}
+
+.btnCurrentlocation {
+  text-align: center;
+  border: none;
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+  margin: 2px 12px auto 0px;
+  padding: 0px;
+}
+
+.btnCurrentlocation:hover {
+  cursor: pointer;
+  color: #fac168;
+  transition: all 200ms ease;
+}
+
+@media (max-width: 756px) {
+  .todayDay {
+    position: relative;
+    right: -130px;
+  }
+  .lineHeader {
+    padding: auto 0px;
+  }
+}
+
+@media (max-width: 720px) {
+  .todayDay {
+    position: relative;
+    right: -120px;
+  }
+}
+
+@media (max-width: 705px) {
+  .todayDay {
+    position: relative;
+    right: -110px;
+  }
+}
+
+@media (max-width: 660px) {
+  .todayDay {
+    position: relative;
+    right: -95px;
+  }
+}
+
+@media (max-width: 630px) {
+  .todayDay {
+    position: relative;
+    right: -88px;
+  }
+}
+
+@media (max-width: 600px) {
+  .todayDay {
+    position: relative;
+    right: -60px;
+  }
+}
+
+@media (max-width: 545px) {
+  .todayDay {
+    position: relative;
+    right: -40px;
+  }
+
+  .container-weather {
+    font-size: 15px;
+  }
+}
+
+.container-weather {
+  margin: auto 10px;
+}
+
+@media (max-width: 519px) {
+  .container-weather {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 470px) {
+  .container-weather {
+    font-size: 14px;
+  }
+
+  input[type="text"] {
+    font-size: 17px;
+  }
+
+  .magn {
+    width: 35px;
+  }
+}
+
+@media (max-width: 475px) {
+  .todayDay {
+    position: relative;
+    right: -30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .todayDay {
+    position: relative;
+    right: -5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .todayDay {
+    position: relative;
+    right: 8px;
+  }
+}
+
+@media (max-width: 390px) {
+  .lineHeader {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .lineHeader {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  input[type="text"] {
+    font-size: 14px;
+  }
+
+  .magn {
+    width: 30px;
+  }
+}
