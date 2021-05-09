@@ -32,6 +32,7 @@ export default function ForecastWeather(props) {
                   </div>
                 );
               }
+              return null;
             })}
           </div>
         </div>
