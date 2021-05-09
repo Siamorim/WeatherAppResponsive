@@ -10,7 +10,7 @@
   line-height: 1px;
   font-weight: 400;
   position: relative;
-  top: -20px;
+  top: -16px;
 }
 
 .TempToday canvas {
@@ -80,7 +80,7 @@ li {
   .TempToday .units {
     font-size: 13px;
     position: relative;
-    top: -10px;
+    top: -11px;
   }
 
   .TempToday canvas {
@@ -117,7 +117,7 @@ li {
   .TempToday .units {
     font-size: 13px;
     position: relative;
-    top: -10px;
+    top: -11px;
   }
 
   .TempToday canvas {
