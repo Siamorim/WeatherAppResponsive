@@ -102,32 +102,32 @@ h1 {
 @media (max-width: 705px) {
   .todayDay {
     position: relative;
-    right: -110px;
+    right: -90px;
   }
 }
 
 @media (max-width: 660px) {
   .todayDay {
     position: relative;
-    right: -95px;
+    right: -85px;
   }
 }
 
 @media (max-width: 630px) {
   .todayDay {
     position: relative;
-    right: -88px;
+    right: -70px;
   }
 }
 
 @media (max-width: 600px) {
   .todayDay {
     position: relative;
-    right: -60px;
+    right: -50px;
   }
 }
 
-@media (max-width: 545px) {
+@media (max-width: 557px) {
   .todayDay {
     position: relative;
     right: -40px;
@@ -144,7 +144,11 @@ h1 {
 
 @media (max-width: 519px) {
   .container-weather {
-    font-size: 13px;
+    font-size: 14px;
+  }
+  .todayDay {
+    position: relative;
+    right: -28px;
   }
 }
 
@@ -165,7 +169,7 @@ h1 {
 @media (max-width: 475px) {
   .todayDay {
     position: relative;
-    right: -30px;
+    right: -17px;
   }
 }
 
@@ -173,6 +177,9 @@ h1 {
   .todayDay {
     position: relative;
     right: -5px;
+  }
+  .lineHeader {
+    font-size: 12px;
   }
 }
 
@@ -185,13 +192,26 @@ h1 {
 
 @media (max-width: 390px) {
   .lineHeader {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
 @media (max-width: 360px) {
   .lineHeader {
     font-size: 10px;
+  }
+
+  input[type="text"] {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .magn {
+    width: 34px;
+  }
+  .todayDay {
+    position: relative;
+    right: 2px;
   }
 }
 
@@ -202,5 +222,18 @@ h1 {
 
   .magn {
     width: 30px;
+  }
+
+  .btnCurrentlocation {
+    font-size: 12px;
+  }
+
+  .todayDay {
+    position: relative;
+    right: 7px;
+  }
+  .lineHeader {
+    font-size: 9px;
+    font-weight: 800;
   }
 }

@@ -46,7 +46,15 @@ li {
   .WeatherConditions {
     font-size: 18px;
     position: relative;
-    left: 80px;
+    left: 120px;
+  }
+}
+
+@media (max-width: 670px) {
+  .WeatherConditions {
+    font-size: 18px;
+    position: relative;
+    left: 85px;
   }
 }
 
@@ -62,13 +70,35 @@ li {
   .WeatherConditions {
     font-size: 16px;
     position: relative;
-    left: 28px;
+    left: 36px;
+  }
+  .TempToday .temp {
+    position: relative;
+    top: -13px;
+  }
+
+  li .text-capitalize {
+    font-size: 17px;
+    position: relative;
+    top: -10px;
+  }
+  .TempToday canvas {
+    font-size: 6px;
+    position: relative;
+    top: -2px;
+  }
+  .TempToday .units {
+    font-size: 13px;
+    position: relative;
+    top: -29px;
   }
 }
 
 @media (max-width: 513px) {
   .TempToday .temp {
     font-size: 30px;
+    position: relative;
+    top: 2px;
   }
 
   li .text-capitalize {
@@ -85,6 +115,8 @@ li {
 
   .TempToday canvas {
     font-size: 6px;
+    position: relative;
+    top: 14px;
   }
 
   .WeatherConditions {
@@ -108,10 +140,10 @@ li {
   }
 
   li .text-capitalize {
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
     top: 5px;
-    margin-left: 0px;
+    margin-left: 5px;
   }
 
   .TempToday .units {
@@ -130,6 +162,12 @@ li {
     font-size: 15px;
     position: relative;
     top: 5px;
+    margin-left: 14px;
+  }
+  .TempToday canvas {
+    width: 40px;
+    position: relative;
+    top: 13px;
   }
 }
 
@@ -155,7 +193,7 @@ li {
     font-size: 14px;
     position: relative;
     top: 5px;
-    left: -30px;
+    left: -40px;
   }
   .WeatherConditions {
     font-size: 12px;
@@ -165,13 +203,13 @@ li {
   .TempToday canvas {
     width: 40px;
     position: relative;
-    top: 12px;
+    top: 16px;
   }
 }
 
 @media (max-width: 340px) {
   .WeatherConditions {
-    font-size: 12px;
+    font-size: 11px;
     position: relative;
     left: -4px;
   }
@@ -193,8 +231,46 @@ li {
 
 @media (max-width: 320px) {
   .WeatherConditions {
-    font-size: 11px;
+    font-size: 10px;
     position: relative;
     left: -14px;
+  }
+  .temp {
+    text-align: center;
+  }
+  li .text-capitalize {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  .WeatherConditions {
+    font-size: 8px;
+    position: relative;
+    left: -8px;
+    top: 5px;
+  }
+  .TempToday canvas {
+    width: 30px;
+    text-align: center;
+    position: relative;
+    top: 12px;
+    left: 10px;
+  }
+  .TempToday .units {
+    font-size: 9px;
+    position: relative;
+    top: -13px;
+  }
+  .TempToday .temp {
+    margin-left: 7px;
+    position: relative;
+    top: -3px;
+  }
+
+  li .text-capitalize {
+    font-size: 10px;
+    position: relative;
+    top: 5px;
   }
 }
