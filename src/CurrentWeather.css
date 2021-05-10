@@ -190,7 +190,7 @@ li {
 
 @media (max-width: 368px) {
   li .text-capitalize {
-    font-size: 12px;
+    font-size: 11px;
     position: relative;
     top: 5px;
     left: -40px;
