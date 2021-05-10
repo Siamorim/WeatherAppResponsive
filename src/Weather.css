@@ -213,6 +213,9 @@ h1 {
     position: relative;
     right: 2px;
   }
+  .btnCurrentlocation {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 320px) {
