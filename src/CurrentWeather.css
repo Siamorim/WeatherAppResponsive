@@ -228,7 +228,7 @@ li {
     top: -10px;
   }
   li .text-capitalize {
-    font-size: 12px;
+    font-size: 11px;
     position: relative;
     top: 5px;
     left: -40px;
@@ -245,7 +245,7 @@ li {
     text-align: center;
   }
   li .text-capitalize {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
