@@ -33,7 +33,7 @@ export default function CurrentWeather(props) {
               <div className="WeatherConditions">
                 <ul>
                   <li>🌡Feels like: {Math.round(props.info.feelsLike)}º</li>
-                  <li>🌢 Humidity: {Math.round(props.info.humidity)}%</li>
+                  <li>💧 Humidity: {Math.round(props.info.humidity)}%</li>
                   <li>💨Wind: {Math.round(props.info.wind)} km/h</li>
                 </ul>
               </div>
