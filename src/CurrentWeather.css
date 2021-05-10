@@ -198,7 +198,7 @@ li {
   .WeatherConditions {
     font-size: 12px;
     position: relative;
-    left: 2px;
+    left: -2px;
   }
   .TempToday canvas {
     width: 40px;
