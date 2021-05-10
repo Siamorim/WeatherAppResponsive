@@ -239,7 +239,7 @@ li {
   .WeatherConditions {
     font-size: 10px;
     position: relative;
-    left: -14px;
+    left: -10px;
   }
   .temp {
     text-align: center;
